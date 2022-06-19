@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    font-family: "Kanit", sans-serif;
+    background-color: #af52bf;
+    color: #fff;
+}
+
+.wrap_left {
+    padding-left: 250px;
+}
+
+.wrap_right {
+    padding-right: 250px;
+}
+
+.wrap_left_mobile {
+    padding-left: 40px;
+}
+
+@media screen and (max-width: 900px) {
+    .text_break_word {
+        width: 15em;
+        word-wrap: break-word;
+    }
+}
